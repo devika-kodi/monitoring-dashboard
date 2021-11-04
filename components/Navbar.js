@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -16,7 +18,9 @@ export default function Navbar() {
             sx={{ mr: 2 }}
           ></IconButton>
           <Typography variant="h6" color="inherit" component="div">
-            Monitoring Dashboard
+            <Link href="/">
+              <a>Monitoring Dashboard</a>
+            </Link>
           </Typography>
         </Toolbar>
       </AppBar>

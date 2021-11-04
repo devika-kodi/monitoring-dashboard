@@ -1,4 +1,3 @@
-import * as React from "react";
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
 import TableCell from "@mui/material/TableCell";
@@ -21,11 +20,11 @@ const rows = [
 export default function Breakdown() {
   return (
     <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 650 }} aria-label="simple table">
+      <Table aria-label="simple table">
         <TableHead>
           <TableRow>
             <TableCell>Breakdown Type</TableCell>
-            <TableCell align="right">Downtime</TableCell>
+            <TableCell align="right">Downtime (min)</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
