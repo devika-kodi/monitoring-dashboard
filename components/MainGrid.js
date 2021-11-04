@@ -19,19 +19,19 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function MainGrid() {
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ flexGrow: 1 }} style={{marginTop: "20px"}}>
       <Grid container spacing={2}>
-        <Grid item xs={6}>
+        <Grid item xs={4}>
           <Item>
             <Donut />
           </Item>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={8}>
           <Item>
             <BarChart />
           </Item>
         </Grid>
-        <Grid item xs={3}>
+        <Grid item xs={5}>
           <Item>
             <h1>Errors</h1>
             <Stack spacing={2}>
@@ -53,7 +53,7 @@ export default function MainGrid() {
             </Stack>
           </Item>
         </Grid>
-        <Grid item xs={9}>
+        <Grid item xs={7}>
           <Item>
             <h2>Downtime</h2>
             <Breakdown />

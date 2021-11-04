@@ -21,10 +21,10 @@ export default function Breakdown() {
   return (
     <TableContainer component={Paper}>
       <Table aria-label="simple table">
-        <TableHead>
-          <TableRow>
-            <TableCell>Breakdown Type</TableCell>
-            <TableCell align="right">Downtime (min)</TableCell>
+        <TableHead style={{ backgroundColor: "#1976D2" }}>
+          <TableRow >
+            <TableCell style={{ color: "#ffffff" }}>Breakdown Type</TableCell>
+            <TableCell style={{ color: "#ffffff" }} align="right">Downtime (min)</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>

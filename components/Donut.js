@@ -6,8 +6,8 @@ const data = {
     {
       label: "Today's work Completed",
       data: [75, 25],
-      backgroundColor: ["rgba(100, 50, 200, 1)", "rgba(191, 191, 191, 1)"],
-      borderColor: ["rgba(255, 255, 255, 1)", "rgba(255, 255, 255, 1)"],
+      backgroundColor: ["rgb(54, 162, 235)", "rgba(200, 200, 200, 1)"],
+      borderColor: ["rgb(54, 162, 235)", "rgba(200, 200, 200, 1)"],
       borderWidth: 1,
     },
   ],

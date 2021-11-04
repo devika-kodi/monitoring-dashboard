@@ -20,10 +20,10 @@ export default function RollerTable() {
     <>
       <TableContainer component={Paper}>
         <Table aria-label="simple table">
-          <TableHead>
+          <TableHead style={{ backgroundColor: "#1976D2" }}>
             <TableRow>
-              <TableCell>Type</TableCell>
-              <TableCell align="right">Status</TableCell>
+              <TableCell style={{ color: "#ffffff" }}>Type</TableCell>
+              <TableCell style={{ color: "#ffffff" }} align="right">Status</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
