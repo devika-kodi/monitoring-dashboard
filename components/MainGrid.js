@@ -19,14 +19,22 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function MainGrid() {
   return (
-    <Box sx={{ flexGrow: 1 }} style={{marginTop: "20px"}}>
+    <Box sx={{ flexGrow: 1 }} style={{ marginTop: "20px" }}>
       <Grid container spacing={2}>
+        <Grid item xs={4}>
+          <Item>
+            <Stack spacing={2}>
+              <Button color="success" variant="contained">Start</Button>
+              <Button color="error" variant="contained">Stop</Button>
+            </Stack>
+          </Item>
+        </Grid>
         <Grid item xs={4}>
           <Item>
             <Donut />
           </Item>
         </Grid>
-        <Grid item xs={8}>
+        <Grid item xs={4}>
           <Item>
             <BarChart />
           </Item>
