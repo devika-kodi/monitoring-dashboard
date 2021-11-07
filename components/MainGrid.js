@@ -26,7 +26,6 @@ export default function MainGrid() {
             <Stack spacing={2}>
               <Button color="success" variant="contained">Start</Button>
               <Button color="error" variant="contained">Stop</Button>
-              <Button color="primary" variant="contained">pause</Button>
             </Stack>
           </Item>
         </Grid>
