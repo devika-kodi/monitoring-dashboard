@@ -2,7 +2,7 @@ import React from "react";
 import { Bar } from "react-chartjs-2";
 
 const data = {
-  labels: ["Week 1", "Week 2", "Week 3", "Week 4"],
+  labels: ["Week 1", "Week 2", "Week 3.1", "Week 4"],
   datasets: [
     {
       label: "Rolled (meters)",
